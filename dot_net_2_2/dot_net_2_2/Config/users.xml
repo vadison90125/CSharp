@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <login name = "alex">
+    <window title = "main">
+      <top>10</top>
+      <left>10</left>
+      <width>10</width>
+      <height>10</height>
+    </window>
+    <window title = "help">
+      <left>20</left>
+      <top>20</top>
+      <height>20</height>
+    </window>
+  </login>
+  <login name = "user1">
+    <window title = "help">
+      <left>20</left>
+      <top>20</top>
+      <width>20</width>
+    </window>
+  </login>
+  <login name = "user2">
+    <window title = "main">
+      <top>10</top>
+      <left>10</left>
+      <height>10</height>
+    </window>
+    <window title = "help">
+      <left>20</left>
+      <top>20</top>
+      <height>20</height>
+    </window>
+  </login>
+  <login name = "user3">
+    <window title = "main">
+      <top>10</top>
+      <left>10</left>
+      <width>10</width>
+      <height>10</height>
+    </window>
+  </login>
+  <login name = "user4">
+    <window title = "main">
+      <top>10</top>
+      <left>10</left>
+      <height>10</height>
+    </window>
+  </login>
+  <login name = "user5">
+    <window title = "main">
+    </window>
+  </login>
+</config>  
