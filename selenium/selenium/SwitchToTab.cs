@@ -14,8 +14,7 @@ namespace selenium
         public static void SwitchToLastBrowserTab()
         {
             IWebDriver driver = new ChromeDriver();
-            driver.Url = "https:\\www.mail.ru";
-            driver.Manage().Window.Maximize();
+            driver.SwitchTo().Window(driver.WindowHandles.Last());
         }
         
     }

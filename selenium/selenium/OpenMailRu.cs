@@ -14,7 +14,8 @@ namespace selenium
         public static void OpenStartPage()
         {
             IWebDriver driver = new ChromeDriver();
-            driver.SwitchTo().Window(driver.WindowHandles.Last());
+            driver.Url = "https:\\www.mail.ru";
+            driver.Manage().Window.Maximize();
         }
 
     }
